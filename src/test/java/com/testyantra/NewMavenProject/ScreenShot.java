@@ -3,15 +3,20 @@ package com.testyantra.NewMavenProject;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import javax.imageio.ImageIO;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
 
 public class ScreenShot {
 	
@@ -28,7 +33,7 @@ public class ScreenShot {
     	driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/a[1]")).click();
     	Thread.sleep(15000);
     	String parentHandle = driver.getWindowHandle();
-
+    	
     	for (String winHandle : driver.getWindowHandles()) {
     	    driver.switchTo().window(winHandle);
     	}
@@ -55,3 +60,9 @@ public class ScreenShot {
      }
     	
 }
+//WebElement webElement = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/a[1]"));
+//Screenshot screenshot = new AShot().takeScreenshot(driver,webElement);
+//ImageIO.write(screenshot.getImage(),"PNG",new File(System.getProperty("user.dir") +"\\ErrorScreenshots\\ElementScreenshot.png"));
+//Thread.sleep(2000);
+//driver.quit();
+

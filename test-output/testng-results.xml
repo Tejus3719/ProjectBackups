@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-20T07:46:33Z" name="Default suite" finished-at="2019-08-20T07:47:23Z" duration-ms="50426">
+  <suite started-at="2019-08-20T10:53:27Z" name="Default suite" finished-at="2019-08-20T10:54:07Z" duration-ms="39702">
     <groups>
     </groups>
-    <test started-at="2019-08-20T07:46:33Z" name="Default test" finished-at="2019-08-20T07:47:23Z" duration-ms="50426">
-      <class name="com.testyantra.NewMavenProject.ScreenShot">
-        <test-method signature="TakeScreenShot()[pri:0, instance:com.testyantra.NewMavenProject.ScreenShot@3ec300f1]" started-at="2019-08-20T07:46:33Z" name="TakeScreenShot" finished-at="2019-08-20T07:47:23Z" duration-ms="50394" status="PASS">
+    <test started-at="2019-08-20T10:53:27Z" name="Default test" finished-at="2019-08-20T10:54:07Z" duration-ms="39702">
+      <class name="com.testyantra.NewMavenProject.BlueStone">
+        <test-method signature="TakeScreenShot()[pri:0, instance:com.testyantra.NewMavenProject.BlueStone@1f1c7bf6]" started-at="2019-08-20T10:53:27Z" name="TakeScreenShot" finished-at="2019-08-20T10:54:07Z" duration-ms="39640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TakeScreenShot -->
-      </class> <!-- com.testyantra.NewMavenProject.ScreenShot -->
+      </class> <!-- com.testyantra.NewMavenProject.BlueStone -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

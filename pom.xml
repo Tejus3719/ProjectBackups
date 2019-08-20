@@ -34,11 +34,17 @@
     <scope>test</scope>
 	</dependency>
     
-<dependency>
+	<dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
     <version>3.6.2</version>
-</dependency>
+	</dependency>
+    
+    <dependency>
+    <groupId>ru.yandex.qatools.ashot</groupId>
+    <artifactId>ashot</artifactId>
+    <version>1.5.4</version>
+	</dependency>
     
   </dependencies>
 </project>
