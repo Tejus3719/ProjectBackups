@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-20T07:46:33Z" name="Default suite" finished-at="2019-08-20T07:47:23Z" duration-ms="50426">
+    <groups>
+    </groups>
+    <test started-at="2019-08-20T07:46:33Z" name="Default test" finished-at="2019-08-20T07:47:23Z" duration-ms="50426">
+      <class name="com.testyantra.NewMavenProject.ScreenShot">
+        <test-method signature="TakeScreenShot()[pri:0, instance:com.testyantra.NewMavenProject.ScreenShot@3ec300f1]" started-at="2019-08-20T07:46:33Z" name="TakeScreenShot" finished-at="2019-08-20T07:47:23Z" duration-ms="50394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShot -->
+      </class> <!-- com.testyantra.NewMavenProject.ScreenShot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
