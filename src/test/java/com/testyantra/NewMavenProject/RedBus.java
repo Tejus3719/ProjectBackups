@@ -45,16 +45,18 @@ public class RedBus {
 			for(WebElement ele:allDates1)
 			{
 				String date=ele.getText();	
+//				System.out.println(date);
 				if(date.equalsIgnoreCase("30"))
 				{
 					ele.click();
 					break;
 				}
 			}
-		  Thread.sleep(10000);
+		  Thread.sleep(15000);
 		  driver.findElement(By.id("search_btn")).click();
 		  Thread.sleep(10000);
 		  driver.findElement(By.xpath("//li[@id='12330061']//div[@class='button view-seats fr'][contains(text(),'View Seats')]")).click();	
+		  driver.findElement(By.xpath("//canvas[@data-type='lower']")).click(); 
 	}
 
 }
